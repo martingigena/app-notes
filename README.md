@@ -1,6 +1,10 @@
 # App Notes
 
-# NodeJs & MongoDB
+### Requeriments
+
+NodeJs & MongoDB
+
+### Versions
 
 v.1
 App to create, update, delete and view notes.    
