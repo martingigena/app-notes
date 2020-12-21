@@ -1,1 +1,23 @@
-<H1>SING IN</H1>
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card text-white bg-dark mt-4 text-center">
+            <div class="card-header">
+                <h1>Acount Login</h1>
+            </div>
+            <img src="/img/logo.png" class="rounded-circle mx-auto d-block m-4 logo" alt="Logo">
+            <div class="card-body">
+                <form action="/users/signin" method="POST">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" name="email" placeholder="Email" autofocus>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <div class="d-grid gap-2 mb-3">
+                       <button type="submit" class="btn btn-primary"> SigIn</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

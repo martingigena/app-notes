@@ -1,1 +1,30 @@
-<h1>REGISTER</h1>
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                Account Register
+            </div>
+            <div class="card-body">
+                <form action="/users/signup" method="POST">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" name='name' placeholder="Name" value="{{name}}">
+                    </div>
+                     <div class="input-group mb-3">
+                        <input type="email" class="form-control" name='email' placeholder="Email" value="{{email}}">
+                    </div>
+                     <div class="input-group mb-3">
+                        <input type="password" class="form-control" name='password' placeholder="Password"value="{{password}}">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" name='confirm_password' placeholder="Confirm Password" value="{{confirm_password}}">
+                    </div>
+                    
+                        <div class="d-grid gap-2 mb-3">
+                        <button type="submit" class="btn btn-primary" >SignUp</button>
+                        </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
